@@ -94,9 +94,7 @@ export default defineComponent({
           value.authority=data.treeRef.getCheckedKeys().sort((a:number,b:number)=>a-b)
         }
       })
-      console.log(data.treeRef.getCheckedKeys().sort((a:number,b:number)=>a-b));
-      
-      //data.editAuthority.isShow=false
+      data.editAuthority.isShow=false
     }
 
 
