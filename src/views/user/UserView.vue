@@ -132,6 +132,7 @@ export default defineComponent({
           data.userList[index]=obj
         }
       })
+      data.editUser.isShow=false
     }
 
 

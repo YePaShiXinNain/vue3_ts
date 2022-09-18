@@ -7,7 +7,7 @@ const routes: Array<RouteRecordRaw> = [
     path: '/',
     name: 'home',
     component: HomeView,
-    redirect: "goods",  //刚进入就重定向到goods
+    redirect: "goods",  //进入首页就重定向到goods
     children: [
       //商品列表子路由
       {
